@@ -1,0 +1,41 @@
+.editor-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff; /* White background */
+    min-height: 300px; /* Increase height to make it more visible */
+    font-family: Arial, sans-serif; /* Optional: Customize font */
+  }
+  
+  .ql-toolbar.ql-snow {
+    background-color: #fff; /* White background for the toolbar */
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .ql-container.ql-snow {
+    border: none;
+  }
+  
+  .ql-editor {
+    min-height: 200px; /* Increase minimum height */
+    background-color: #fff; /* White background for the editor */
+  }
+  
+  .editor-toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .editor-toolbar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .editor-toolbar button:hover {
+    background-color: #0056b3;
+  }
+  
